@@ -3,14 +3,19 @@
 .venv
 env/
 venv/
+venv2/
+
 ENV/
 env.bak/
 venv.bak/
+venv2.bak/
 
 # pycharm
 .idea/
 
 #datasets
-datasets/
+packages/model/regression_model/datasets/
 
 req.txt
+
+.pytest_cache/
