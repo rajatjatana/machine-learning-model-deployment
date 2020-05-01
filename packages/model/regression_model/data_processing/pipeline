@@ -1,0 +1,13 @@
+
+from sklearn.pipeline import Pipeline
+import preprocessors as pp
+
+
+PIPELINE_NAME = 'lasso_regression'
+
+
+price_pipe = Pipeline(
+    [
+        ('categorical_imputer',
+         pp.CategoricalImputer(variables=CATEGORICAL_VARS)),
+    ])
